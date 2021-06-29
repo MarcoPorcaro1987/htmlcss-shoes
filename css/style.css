@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    width: 100%;
+    relative;
+ 
+}
+
+.buttons {
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.buttons div {
+    font-weight: bold;
+    margin-right:30px;  
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
