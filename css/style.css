@@ -1,4 +1,7 @@
 /*Reset*/
+html {
+    scroll-behavior: smooth;
+  }
 
 * {
     margin: 0 auto;
@@ -24,8 +27,7 @@ header {
 .buttons {
     position: absolute;
     right: 0;
-    top: 40px;
-    
+    top: 40px; 
 }
 
 .buttons ul li {
@@ -35,6 +37,11 @@ header {
     display: inline-block;
     text-align: center;
     line-height: 50px;
+    box-shadow: 5px 10px #615c8d
+}
+
+.buttons ul li:hover{
+    background-color: pink;
 }
 
 li a {
