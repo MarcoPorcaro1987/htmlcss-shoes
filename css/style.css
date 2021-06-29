@@ -12,6 +12,7 @@ header {
     width: 100%;
     relative;
     position:fixed;
+    z-index: 1;
  
 }
 
@@ -19,6 +20,7 @@ header {
     position: absolute;
     right: 0;
     top: 40px;
+    
 }
 
 .buttons ul li {
@@ -41,13 +43,28 @@ li a {
 
 .background {
     height: 100vh;
+    position: relative;
+    
 }
 
+.product {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.testo-bordato {
+        text-align: center;
+        font-size: 50px;
+        line-height: 150%;
+        color: yellow;
+        text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
 #red {
     background-color: red;
 }
-
-
 
 #green {
     background-color: green;
@@ -55,4 +72,9 @@ li a {
 
 #yellow {
     background-color: yellow;
+}
+
+.special-text {
+    color: green;
+    text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
 }
