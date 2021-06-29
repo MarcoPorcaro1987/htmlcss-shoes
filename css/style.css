@@ -4,13 +4,19 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
+/*Common*/
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+}
 /*Header*/
 
 header {
     width: 100%;
-    position: relative;
     position:fixed;
     z-index: 1;
 }
@@ -35,7 +41,6 @@ li a {
     text-decoration: none;
     padding: 25px;
     color: black;
-    font-weight: bold;
 }
 
 /*Main*/
@@ -55,6 +60,7 @@ li a {
 
 
 .testo-bordato {
+        padding-top: 0;
         text-align: center;
         font-size: 50px;
         color: yellow;
