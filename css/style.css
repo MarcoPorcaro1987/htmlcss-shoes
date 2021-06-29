@@ -1,12 +1,17 @@
+/*Reset*/
+
 * {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*Header*/
+
 header {
     width: 100%;
     relative;
+    position:fixed;
  
 }
 
@@ -16,14 +21,38 @@ header {
     top: 40px;
 }
 
-.buttons div {
-    font-weight: bold;
+.buttons ul li {
     margin-right:30px;  
-    height: 50px;
-    width: 50px;
     border-radius: 50%;
     background-color: white;
     display: inline-block;
     text-align: center;
     line-height: 50px;
+}
+
+li a {
+    text-decoration: none;
+    padding: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+/*Main*/
+
+.background {
+    height: 100vh;
+}
+
+#red {
+    background-color: red;
+}
+
+
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
 }
