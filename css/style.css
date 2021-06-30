@@ -13,7 +13,7 @@ html {
 /*Common*/
 
 body {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Rubik Mono One', sans-serif;
     font-weight: 700;
 }
 /*Header*/
@@ -37,7 +37,7 @@ header {
     display: inline-block;
     text-align: center;
     line-height: 50px;
-    box-shadow: 5px 10px #615c8d
+    box-shadow: 4px 8px #615c8d
 }
 
 .buttons ul li:hover{
@@ -63,15 +63,18 @@ li a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 600px;
 }
 
+.photo-shoe {
+    width: 100%;
+}
 
 .testo-bordato {
-        padding-top: 0;
-        text-align: center;
-        font-size: 50px;
-        color: yellow;
-        text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;    
+    padding-top: 0;
+    text-align: center;
+    font-size: 40px;
+    color: yellow; 
 }
 #red {
     background-color: red;
@@ -87,5 +90,4 @@ li a {
 
 .special-text {
     color: green;
-    text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
 }
